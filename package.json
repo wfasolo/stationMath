@@ -1,0 +1,8 @@
+{
+  "name": "stationMath",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wfasolo/stationMath.git",
+  "author": "wfasolo <wfasolo@gmail.com>",
+  "license": "MIT"
+}
