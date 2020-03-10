@@ -4,5 +4,31 @@
   "main": "index.js",
   "repository": "https://github.com/wfasolo/stationMath.git",
   "author": "wfasolo <wfasolo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.7.0",
+    "axios": "^0.19.2",
+    "brain.js": "^2.0.0-alpha.12",
+    "chart.js": "^2.9.3",
+    "d3": "^3.5.17",
+    "function-plot": "^1.19.1",
+    "js-regression": "^1.0.10",
+    "json": "^9.0.6",
+    "nodemon": "^2.0.2",
+    "plotly": "^1.0.6",
+    "react-scripts": "^3.4.0",
+    "regression": "^2.0.1",
+    "unix-timestamp": "^0.2.0"
+  },
+  "devDependencies": {
+    "chart": "^0.1.2",
+    "chartist": "^0.11.4",
+    "gulp": "^4.0.2",
+    "react-chartist": "^0.14.3",
+    "sucrase": "^3.12.1",
+    "webpack-cli": "^3.3.11"
+  }
 }
