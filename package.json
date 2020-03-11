@@ -6,7 +6,9 @@
   "author": "wfasolo <wfasolo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "dev2": "nodemon regressao.js",
+    "dev3": "nodemon regressao2.js"
   },
   "dependencies": {
     "@tensorflow/tfjs": "^1.7.0",
