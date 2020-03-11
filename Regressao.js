@@ -40,7 +40,7 @@ async recebeEstacao() {
     var i2 = 0;
     const { data } = await axios.get("http://i9pool.ddns.net:3333/weatherData");
 
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 48; i++) {
 
 
 
@@ -97,7 +97,7 @@ async  removeData() {
     var valorP = valor[1];
     var valorU = valor[2];
 
-    for (var i = 0; i < 22; i++) {
+    for (var i = 0; i < 60; i++) {
         removeT[i] = [i, valorT[i][1]];
         removeP[i] = [i, valorP[i][1]];
         removeU[i] = [i, valorU[i][1]];
@@ -141,7 +141,7 @@ async retornaData() {
     var retornaP = [];
     var retornaU = [];
     var Temp = [];
-    for (var i = 10; i < 22; i++) {
+    for (var i = 48; i < 60; i++) {
         const date = new Date(valor2D[i][0]);
         let v1 = date.toLocaleString();
         let v2 = parseFloat(valorT.points[i][1]);
@@ -153,9 +153,9 @@ async retornaData() {
         retornaU[i] = [v1, v4.toFixed(1)];
 
     }
-    retornaT.splice(0, 10);
-    retornaP.splice(0, 10);
-    retornaU.splice(0, 10);
+    retornaT.splice(0, 48);
+    retornaP.splice(0, 48);
+    retornaU.splice(0, 48);
     retorna['temp'] = retornaT;
     retorna['press'] = retornaP;
     retorna['humid'] = retornaU;
