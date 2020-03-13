@@ -148,8 +148,6 @@ async retornaData() {
         let v3 = parseFloat(valorP.points[i][1]);
         let v4 = parseFloat(valorU.points[i][1]);
 
-        if (v4>100){v4=100}
-        
         retornaT[i] = [v1, v2.toFixed(1)];
         retornaP[i] = [v1, v3.toFixed(1)];
         retornaU[i] = [v1, v4.toFixed(1)];

@@ -6858,6 +6858,11 @@ jest@24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
+jquery-csv@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/jquery-csv/-/jquery-csv-1.0.8.tgz#fa198b7d3d38d850587b73208ec33aca36227bda"
+  integrity sha512-klqQ4OPfXe8BqfO1BzUFv+dldI8EoroNV3/J/gYoWskB3nOp0SgexgWEObU0Xp8PfKlVXKDaRHjKxZX6hHPojw==
+
 js-regression@^1.0.10:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/js-regression/-/js-regression-1.0.10.tgz#14f864b01fc2d361defee3b42e5fa13d606c17a8"
