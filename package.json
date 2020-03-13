@@ -7,8 +7,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon index.js",
-    "dev2": "nodemon regressao.js",
-    "dev3": "nodemon regressao2.js"
+    "dev2": "nodemon calc_ch.js",
+    "dev3": "nodemon regressao.js",
+    "dev4": "nodemon regressao2.js"
   },
   "dependencies": {
     "@tensorflow/tfjs": "^1.7.0",
