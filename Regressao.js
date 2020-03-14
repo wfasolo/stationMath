@@ -136,7 +136,7 @@ class Regressao {
     var Temp = [];
     for (var i = 48; i < 60; i++) {
       const date = new Date(valor2D[i][0]);
-      let v1 = date.toLocaleString();
+      let v1 = date.toISOString();
       let v2 = parseFloat(valorT.points[i][1]);
       let v3 = parseFloat(valorP.points[i][1]);
       let v4 = parseFloat(valorU.points[i][1]);
